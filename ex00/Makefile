@@ -6,7 +6,7 @@
 #    By: sshahary <sshahary@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/07/12 01:34:23 by sshahary          #+#    #+#              #
-#    Updated: 2024/07/12 01:34:58 by sshahary         ###   ########.fr        #
+#    Updated: 2024/07/12 01:56:57 by sshahary         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@
 CXX = c++
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98
 
-NAME = fixed_point
+NAME = fixed
 
 SRCS = main.cpp Fixed.cpp
 OBJS = $(SRCS:.cpp=.o)
