@@ -6,14 +6,14 @@
 /*   By: sshahary <sshahary@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/12 01:55:20 by sshahary          #+#    #+#             */
-/*   Updated: 2024/07/12 02:02:17 by sshahary         ###   ########.fr       */
+/*   Updated: 2024/07/15 23:23:58 by sshahary         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Fixed.hpp"
 
 // Default constructor
-Fixed::Fixed() : _value(0)
+Fixed::Fixed() : _value(10)
 {
 	std::cout << "Default constructor called" << std::endl;
 }
